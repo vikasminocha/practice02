@@ -1,0 +1,21 @@
+uuid: ef03abdb-10ff-4e10-b8af-4a142c5d15e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_port_region
+    - node.type.port
+  module:
+    - options
+id: node.port.field_port_region
+field_name: field_port_region
+entity_type: node
+bundle: port
+label: 'Port Region'
+description: 'Please select the reqion for port.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

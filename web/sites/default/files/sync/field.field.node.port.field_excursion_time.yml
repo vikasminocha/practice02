@@ -1,0 +1,19 @@
+uuid: 90be2eb2-e7b7-4dab-af06-c130c8ef9b2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_excursion_time
+    - node.type.port
+id: node.port.field_excursion_time
+field_name: field_excursion_time
+entity_type: node
+bundle: port
+label: 'Excursion Time'
+description: 'Please enter time for particular excursion.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

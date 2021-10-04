@@ -1,0 +1,52 @@
+uuid: 14edb624-3d9b-4870-97b5-5ad856cdbae7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.top_experiences.field_experience_description
+    - field.field.paragraph.top_experiences.field_experience_image
+    - field.field.paragraph.top_experiences.field_experience_title
+    - field.field.paragraph.top_experiences.field_experience_type
+    - image.style.thumbnail
+    - paragraphs.paragraphs_type.top_experiences
+  module:
+    - image
+    - text
+id: paragraph.top_experiences.default
+targetEntityType: paragraph
+bundle: top_experiences
+mode: default
+content:
+  field_experience_description:
+    weight: 3
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_experience_image:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_experience_title:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_experience_type:
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+hidden:
+  created: true
+  status: true

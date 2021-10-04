@@ -1,0 +1,18 @@
+uuid: 85e0bf24-e2e6-43fc-ae35-e9d7e3621492
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Port
+type: port
+description: 'Description for each Port pertaining to a particular Product and Region'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

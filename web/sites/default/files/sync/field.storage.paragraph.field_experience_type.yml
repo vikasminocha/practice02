@@ -1,0 +1,45 @@
+uuid: f8e38cb7-2e48-444e-b2dc-f4b0f213d2e1
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_experience_type
+field_name: field_experience_type
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Adventure
+      label: Adventure
+    -
+      value: Architecture
+      label: Architecture
+    -
+      value: Cultural
+      label: Cultural
+    -
+      value: 'Food & Wine'
+      label: 'Food & Wine'
+    -
+      value: History
+      label: History
+    -
+      value: Shopping
+      label: Shopping
+    -
+      value: Water
+      label: Water
+    -
+      value: Other
+      label: Other
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

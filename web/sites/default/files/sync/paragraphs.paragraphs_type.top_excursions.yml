@@ -1,0 +1,10 @@
+uuid: bbd6ac7b-8d0d-4dea-8da3-1b8ce7167ff2
+langcode: en
+status: true
+dependencies: {  }
+id: top_excursions
+label: 'Top Excursions'
+icon_uuid: null
+icon_default: null
+description: 'Paragraph type for Top Excursions being used in Ports.'
+behavior_plugins: {  }

@@ -1,0 +1,31 @@
+uuid: 05a56665-ca53-4614-a1b7-4b390d6effb2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_top_excursions
+    - node.type.port
+    - paragraphs.paragraphs_type.top_excursions
+  module:
+    - entity_reference_revisions
+id: node.port.field_top_excursions
+field_name: field_top_excursions
+entity_type: node
+bundle: port
+label: 'Top Excursions'
+description: 'Please enter details for the top excursions.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      top_excursions: top_excursions
+    target_bundles_drag_drop:
+      top_excursions:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

@@ -1,0 +1,21 @@
+uuid: 5d185c9f-d78e-4644-8ea5-256942070094
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_activity_level
+    - paragraphs.paragraphs_type.top_excursions
+  module:
+    - options
+id: paragraph.top_excursions.field_activity_level
+field_name: field_activity_level
+entity_type: paragraph
+bundle: top_excursions
+label: 'Activity Level'
+description: 'Please choose the activity level for top excursion.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

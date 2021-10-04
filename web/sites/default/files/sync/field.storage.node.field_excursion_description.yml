@@ -1,0 +1,19 @@
+uuid: 35f3adef-2082-465b-9c89-1a1548a30a00
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_excursion_description
+field_name: field_excursion_description
+entity_type: node
+type: text_with_summary
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

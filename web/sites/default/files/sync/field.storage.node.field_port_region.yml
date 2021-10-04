@@ -1,0 +1,45 @@
+uuid: b5c517d4-276a-4516-bb64-5c00be5dba1e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_port_region
+field_name: field_port_region
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Africa
+      label: Africa
+    -
+      value: Alaska
+      label: Alaska
+    -
+      value: Asia
+      label: Asia
+    -
+      value: 'Australia & South Pacific'
+      label: 'Australia & South Pacific'
+    -
+      value: 'Caribbean & Bahamas'
+      label: 'Caribbean & Bahamas'
+    -
+      value: Europe
+      label: Europe
+    -
+      value: Hawaii
+      label: Hawaii
+    -
+      value: 'North America'
+      label: 'North America'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

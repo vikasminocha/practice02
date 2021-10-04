@@ -1,0 +1,149 @@
+uuid: 81b83f60-bb7e-40f2-9f0a-2acb249b778c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.port.body
+    - field.field.node.port.field_excursion_activity_level
+    - field.field.node.port.field_excursion_description
+    - field.field.node.port.field_excursion_image
+    - field.field.node.port.field_excursion_time
+    - field.field.node.port.field_excursion_title
+    - field.field.node.port.field_port_image
+    - field.field.node.port.field_port_overview
+    - field.field.node.port.field_port_product
+    - field.field.node.port.field_port_region
+    - field.field.node.port.field_top_excursions
+    - field.field.node.port.field_top_experiences
+    - node.type.port
+  module:
+    - entity_reference_revisions
+    - field_group
+    - image
+    - options
+    - text
+    - user
+third_party_settings:
+  field_group:
+    group_top_excursions:
+      children:
+        - field_excursion_title
+        - field_excursion_image
+        - field_excursion_activity_level
+        - field_excursion_time
+        - field_excursion_description
+      parent_name: ''
+      weight: 4
+      format_type: fieldset
+      region: content
+      format_settings:
+        show_empty_fields: false
+        id: ''
+        classes: ''
+        description: ''
+      label: 'Top Excursions'
+id: node.port.default
+targetEntityType: node
+bundle: port
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_excursion_activity_level:
+    weight: 7
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_excursion_description:
+    weight: 9
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_excursion_image:
+    weight: 6
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_excursion_time:
+    weight: 8
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_excursion_title:
+    weight: 5
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_port_image:
+    weight: 3
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_port_overview:
+    weight: 2
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_port_product:
+    weight: 13
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_port_region:
+    weight: 12
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_top_excursions:
+    type: entity_reference_revisions_entity_view
+    weight: 10
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  field_top_experiences:
+    type: entity_reference_revisions_entity_view
+    weight: 11
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

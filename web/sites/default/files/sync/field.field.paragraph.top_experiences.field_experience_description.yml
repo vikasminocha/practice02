@@ -1,0 +1,21 @@
+uuid: aea663cd-5503-48ad-9c91-fefc64a0c818
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_experience_description
+    - paragraphs.paragraphs_type.top_experiences
+  module:
+    - text
+id: paragraph.top_experiences.field_experience_description
+field_name: field_experience_description
+entity_type: paragraph
+bundle: top_experiences
+label: 'Experience Description'
+description: 'Please enter the description for the experience.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

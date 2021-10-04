@@ -1,0 +1,23 @@
+uuid: 7c10dbf7-72b7-4f48-b6cb-f82420213fe2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_excursion_description
+    - node.type.port
+  module:
+    - text
+id: node.port.field_excursion_description
+field_name: field_excursion_description
+entity_type: node
+bundle: port
+label: 'Excursion Description'
+description: 'Please enter the description for particular excursion in bulleted format.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,18 @@
+uuid: bef3c965-1e94-4c52-a62b-0ae3de5a0548
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.port
+id: node.port.title
+field_name: title
+entity_type: node
+bundle: port
+label: Port
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

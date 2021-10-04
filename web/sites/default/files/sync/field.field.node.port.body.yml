@@ -1,0 +1,23 @@
+uuid: 32b7b3b4-7cc9-45ce-beff-500fb83e88e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.port
+  module:
+    - text
+id: node.port.body
+field_name: body
+entity_type: node
+bundle: port
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

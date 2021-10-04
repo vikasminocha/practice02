@@ -1,0 +1,21 @@
+uuid: d142905c-21dd-45ea-bd4d-9c0e22949883
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_excursion_description
+    - paragraphs.paragraphs_type.top_excursions
+  module:
+    - text
+id: paragraph.top_excursions.field_excursion_description
+field_name: field_excursion_description
+entity_type: paragraph
+bundle: top_excursions
+label: 'Excursion Description'
+description: 'Please enter the description for top excursion.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

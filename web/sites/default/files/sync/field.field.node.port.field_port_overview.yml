@@ -1,0 +1,21 @@
+uuid: 840c963a-187e-454c-b7a2-1c1eb8d80b15
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_port_overview
+    - node.type.port
+  module:
+    - text
+id: node.port.field_port_overview
+field_name: field_port_overview
+entity_type: node
+bundle: port
+label: 'Port Overview'
+description: 'Please enter the formatted text for Port Overview.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,19 @@
+uuid: 560ddd16-9741-45a6-ad91-1d3e76ff985f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_total_time
+    - paragraphs.paragraphs_type.top_excursions
+id: paragraph.top_excursions.field_total_time
+field_name: field_total_time
+entity_type: paragraph
+bundle: top_excursions
+label: 'Total Time'
+description: 'Please enter the total time for to excursion.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

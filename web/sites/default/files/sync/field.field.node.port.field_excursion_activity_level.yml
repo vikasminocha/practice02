@@ -1,0 +1,21 @@
+uuid: 8f519c7c-950e-4782-8f98-ffd1109092ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_excursion_activity_level
+    - node.type.port
+  module:
+    - options
+id: node.port.field_excursion_activity_level
+field_name: field_excursion_activity_level
+entity_type: node
+bundle: port
+label: 'Excursion Activity Level'
+description: 'Select the activity level for the particular excursion.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

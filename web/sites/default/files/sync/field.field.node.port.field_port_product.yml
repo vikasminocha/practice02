@@ -1,0 +1,21 @@
+uuid: 6718433e-9df1-4e5d-85c0-8bdfcf8487dc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_port_product
+    - node.type.port
+  module:
+    - options
+id: node.port.field_port_product
+field_name: field_port_product
+entity_type: node
+bundle: port
+label: 'Port Product'
+description: 'Please select the product for this port.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

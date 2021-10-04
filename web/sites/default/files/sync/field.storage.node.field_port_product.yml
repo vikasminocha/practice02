@@ -1,0 +1,81 @@
+uuid: 1020a829-aa3a-4e87-955c-108d6a9255f0
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_port_product
+field_name: field_port_product
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Africa - Asia'
+      label: 'Africa - Asia'
+    -
+      value: 'South Africa'
+      label: 'South Africa'
+    -
+      value: Alaska
+      label: Alaska
+    -
+      value: Japan
+      label: Japan
+    -
+      value: 'Southeast Asia'
+      label: 'Southeast Asia'
+    -
+      value: 'Australia & South Pacific'
+      label: 'Australia & South Pacific'
+    -
+      value: Bahamas
+      label: Bahamas
+    -
+      value: 'Eastern Caribbean'
+      label: 'Eastern Caribbean'
+    -
+      value: 'Southern Caribbean'
+      label: 'Southern Caribbean'
+    -
+      value: 'Western Caribbean'
+      label: 'Western Caribbean'
+    -
+      value: Baltics
+      label: Baltics
+    -
+      value: 'Black Sea & Greek Isles'
+      label: 'Black Sea & Greek Isles'
+    -
+      value: 'British Isles'
+      label: 'British Isles'
+    -
+      value: 'Greek Isles'
+      label: 'Greek Isles'
+    -
+      value: Iceland
+      label: Iceland
+    -
+      value: 'Western Mediterranean'
+      label: 'Western Mediterranean'
+    -
+      value: Hawaii
+      label: Hawaii
+    -
+      value: Bermuda
+      label: Bermuda
+    -
+      value: 'Mexican Riviera'
+      label: 'Mexican Riviera'
+    -
+      value: 'New England / Canada'
+      label: 'New England / Canada'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
